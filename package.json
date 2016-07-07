@@ -1,0 +1,28 @@
+{
+  "name": "githubrepos",
+  "version": "1.0.0",
+  "description": "An ES6 sample showing a list of repos",
+  "main": "index.js",
+  "scripts": {
+    "transpile-amd": "babel ES6 --out-dir dist"
+  },
+  "keywords": [
+    "ES6",
+    "Babel"
+  ],
+  "author": "Ravi",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "requirejs": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.6.5",
+    "babel-plugin-transform-es2015-modules-amd": "^6.6.5",
+    "babel-plugin-transform-runtime": "^6.6.0",
+    "babel-preset-es2015": "^6.6.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
+}
